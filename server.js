@@ -11,4 +11,4 @@ app.get('/api',(req,res)=>{
 })
 
 //kise post te on krna server nu
-app.listen(5001,console.log('Listening at PORT http://localhost:5000'));
+app.listen(5000,console.log('Listening at PORT http://localhost:5000'));
