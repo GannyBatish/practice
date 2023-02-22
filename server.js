@@ -12,6 +12,9 @@ app.get('/api',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.send('Login')
 })
+app.get('/signup',(req,res)=>{
+    res.send('Signup')
+})
 
 //kise post te on krna server nu
 app.listen(5000,console.log('Listening at PORT http://localhost:5000'));
